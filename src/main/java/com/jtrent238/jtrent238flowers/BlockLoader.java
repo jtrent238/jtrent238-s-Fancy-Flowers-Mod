@@ -27,7 +27,20 @@ public class BlockLoader {
 	public static Block flower_redallium;
 	public static Block flower_rose;
 	public static Block flower_yellowtulip;
-	
+	public static Block flower_cockscomb_5;
+	public static Block flower_cockscomb_4;
+	public static Block flower_cockscomb_3;
+	public static Block flower_cockscomb_2;
+	public static Block flower_cockscomb_1;
+	public static Block flower_morningglory;
+	public static Block flower_pansy_4;
+	public static Block flower_pansy_3;
+	public static Block flower_pansy_2;
+	public static Block flower_pansy_1;
+	public static Block flower_laceleaf;
+	public static Block flower_marigold;
+	public static Block flower_aquilegia;
+	public static Block flower_africandasiy;
 	
 	
 	
@@ -54,7 +67,21 @@ public class BlockLoader {
 		flower_redallium = new BlockModFlower(15).setBlockName("flower_redallium");
 		flower_rose = new BlockModFlower(16).setBlockName("flower_rose");
 		flower_yellowtulip = new BlockModFlower(17).setBlockName("flower_yellowtulip");
-		
+		flower_cockscomb_5 = new BlockModFlower(17).setBlockName("flower_cockscomb_5");
+		flower_cockscomb_4 = new BlockModFlower(18).setBlockName("flower_cockscomb_4");
+		flower_cockscomb_3 = new BlockModFlower(19).setBlockName("flower_cockscomb_3");
+		flower_cockscomb_2 = new BlockModFlower(20).setBlockName("flower_cockscomb_2");
+		flower_cockscomb_1 = new BlockModFlower(21).setBlockName("flower_cockscomb_1");
+		flower_morningglory = new BlockModFlower(22).setBlockName("flower_morningglory");
+		flower_pansy_4 = new BlockModFlower(23).setBlockName("flower_pansy_4");
+		flower_pansy_3 = new BlockModFlower(24).setBlockName("flower_pansy_3");
+		flower_pansy_2 = new BlockModFlower(25).setBlockName("flower_pansy_2");
+		flower_pansy_1 = new BlockModFlower(26).setBlockName("flower_pansy_1");
+		flower_laceleaf = new BlockModFlower(27).setBlockName("flower_laceleaf");
+		flower_marigold = new BlockModFlower(28).setBlockName("flower_marigold");
+		flower_aquilegia = new BlockModFlower(29).setBlockName("flower_aquilegia");
+		flower_africandasiy = new BlockModFlower(30).setBlockName("flower_africandasiy");
+
 		
 		registerBlocks();
 	}
@@ -82,7 +109,20 @@ public class BlockLoader {
 		GameRegistry.registerBlock(flower_redallium, "flower_redallium");
 		GameRegistry.registerBlock(flower_rose, "naflower_roseme");
 		GameRegistry.registerBlock(flower_yellowtulip, "flower_yellowtulip");
-
+		GameRegistry.registerBlock(flower_cockscomb_5, "flower_cockscomb_5");
+		GameRegistry.registerBlock(flower_cockscomb_4, "flower_cockscomb_4");
+		GameRegistry.registerBlock(flower_cockscomb_3, "flower_cockscomb_3");
+		GameRegistry.registerBlock(flower_cockscomb_2, "flower_cockscomb_2");
+		GameRegistry.registerBlock(flower_cockscomb_1, "flower_cockscomb_1");
+		GameRegistry.registerBlock(flower_morningglory, "flower_morningglory");
+		GameRegistry.registerBlock(flower_pansy_4, "flower_pansy_4");
+		GameRegistry.registerBlock(flower_pansy_3, "flower_pansy_3");
+		GameRegistry.registerBlock(flower_pansy_2, "flower_pansy_2");
+		GameRegistry.registerBlock(flower_pansy_1, "flower_pansy_1");
+		GameRegistry.registerBlock(flower_laceleaf, "flower_laceleaf");
+		GameRegistry.registerBlock(flower_marigold, "flower_marigold");
+		GameRegistry.registerBlock(flower_aquilegia, "flower_aquilegia");
+		GameRegistry.registerBlock(flower_africandasiy, "flower_africandasiy");
 	}
 	
 	
