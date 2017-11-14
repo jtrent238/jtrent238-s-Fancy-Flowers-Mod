@@ -105,6 +105,20 @@ public void init(FMLInitializationEvent event)
 	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_redallium), 0);
 	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_rose), 0);
 	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_yellowtulip), 0);
+	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_cockscomb_5), 0);
+	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_cockscomb_4), 0);
+	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_cockscomb_3), 0);
+	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_cockscomb_2), 0);
+	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_cockscomb_1), 0);
+	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_morningglory), 0);
+	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_pansy_4), 0);
+	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_pansy_3), 0);
+	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_pansy_2), 0);
+	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_pansy_1), 0);
+	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_laceleaf), 0);
+	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_marigold), 0);
+	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_aquilegia), 0);
+	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_africandasiy), 0);
 
 }
 
