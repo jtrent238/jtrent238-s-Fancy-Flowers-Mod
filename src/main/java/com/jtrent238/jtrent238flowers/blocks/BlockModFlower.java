@@ -187,6 +187,6 @@ public class BlockModFlower  extends BlockBush
 			(new WorldGenFlowers(BlockLoader.flower_laceleaf)).generate(world, randomGenerator, l6, i11, l14);
 			(new WorldGenFlowers(BlockLoader.flower_marigold)).generate(world, randomGenerator, l6, i11, l14);
 			(new WorldGenFlowers(BlockLoader.flower_aquilegia)).generate(world, randomGenerator, l6, i11, l14);
-			(new WorldGenFlowers(BlockLoader.flower_africandasiy)).generate(world, randomGenerator, l6, i11, l14);
+			(new WorldGenFlowers(BlockLoader.flower_africandasiy)).generate(world, randomGenerator, l6, i11, l14);}
 	}
 }
