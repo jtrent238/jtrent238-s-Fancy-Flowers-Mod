@@ -81,9 +81,9 @@ public class FlowerWorldGen extends WorldGenerator implements IWorldGenerator
 			(new WorldGenFlowers(BlockLoader.flower_pansy_2)).generate(world, randomGenerator, l6, i11, l14);
 			(new WorldGenFlowers(BlockLoader.flower_pansy_1)).generate(world, randomGenerator, l6, i11, l14);
 			(new WorldGenFlowers(BlockLoader.flower_laceleaf)).generate(world, randomGenerator, l6, i11, l14);
-			(new WorldGenFlowers(BlockLoader.flower_marigold)).generate(world, randomGenerator, l6, i11, l14);
 			(new WorldGenFlowers(BlockLoader.flower_aquilegia)).generate(world, randomGenerator, l6, i11, l14);
-			(new WorldGenFlowers(BlockLoader.flower_africandasiy)).generate(world, randomGenerator, l6, i11, l14);}
+			(new WorldGenFlowers(BlockLoader.flower_africandasiy)).generate(world, randomGenerator, l6, i11, l14);
+			(new WorldGenFlowers(BlockLoader.flower_bluelilac)).generate(world, randomGenerator, l6, i11, l14);}
 	}
 	
 }

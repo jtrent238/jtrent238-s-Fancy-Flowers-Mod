@@ -49,7 +49,7 @@ public class Main
 	/** This is used to keep track of GUIs that we make*/
 	private static int modGuiIndex = 0;
 	
-	public static final String MODVERSION = "1.0.0.0";
+	public static final String MODVERSION = "1.0.0.1";
 	public static final String MODNAME = "jtrent238's Fancy Flower Mod";
 	public static final String MODAUTHOR = "jtrent238";
 	public static final String MC = "1.7.10";
@@ -116,9 +116,9 @@ public void init(FMLInitializationEvent event)
 	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_pansy_2), 0);
 	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_pansy_1), 0);
 	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_laceleaf), 0);
-	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_marigold), 0);
 	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_aquilegia), 0);
 	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_africandasiy), 0);
+	GameRegistry.registerWorldGenerator(new FlowerWorldGen(BlockLoader.flower_bluelilac), 0);
 
 }
 

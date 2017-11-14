@@ -38,10 +38,9 @@ public class BlockLoader {
 	public static Block flower_pansy_2;
 	public static Block flower_pansy_1;
 	public static Block flower_laceleaf;
-	public static Block flower_marigold;
 	public static Block flower_aquilegia;
 	public static Block flower_africandasiy;
-	
+	public static Block flower_bluelilac;
 	
 	
 	/**
@@ -53,7 +52,7 @@ public class BlockLoader {
 		flower_aster = new BlockModFlower(1).setBlockName("flower_aster");
 		flower_blue = new BlockModFlower(2).setBlockName("flower_blue");
 		flower_blue_2 = new BlockModFlower(3).setBlockName("flower_blue_2");
-		flower_dandelion = new BlockModFlower(4).setBlockName("flower_dandelion");
+		flower_dandelion = new BlockModFlower(4).setBlockName("flower_dandelion_1");
 		flower_darkbloom = new BlockModFlower(5).setBlockName("flower_darkbloom");
 		flower_fire = new BlockModFlower(6).setBlockName("flower_fire");
 		flower_herb = new BlockModFlower(7).setBlockName("flower_herb");
@@ -65,23 +64,22 @@ public class BlockLoader {
 		flower_purple = new BlockModFlower(13).setBlockName("flower_purple");
 		flower_purpletulip = new BlockModFlower(14).setBlockName("flower_purpletulip");
 		flower_redallium = new BlockModFlower(15).setBlockName("flower_redallium");
-		flower_rose = new BlockModFlower(16).setBlockName("flower_rose");
+		flower_rose = new BlockModFlower(16).setBlockName("flower_rose_1");
 		flower_yellowtulip = new BlockModFlower(17).setBlockName("flower_yellowtulip");
-		flower_cockscomb_5 = new BlockModFlower(17).setBlockName("flower_cockscomb_5");
-		flower_cockscomb_4 = new BlockModFlower(18).setBlockName("flower_cockscomb_4");
-		flower_cockscomb_3 = new BlockModFlower(19).setBlockName("flower_cockscomb_3");
-		flower_cockscomb_2 = new BlockModFlower(20).setBlockName("flower_cockscomb_2");
-		flower_cockscomb_1 = new BlockModFlower(21).setBlockName("flower_cockscomb_1");
-		flower_morningglory = new BlockModFlower(22).setBlockName("flower_morningglory");
-		flower_pansy_4 = new BlockModFlower(23).setBlockName("flower_pansy_4");
-		flower_pansy_3 = new BlockModFlower(24).setBlockName("flower_pansy_3");
-		flower_pansy_2 = new BlockModFlower(25).setBlockName("flower_pansy_2");
-		flower_pansy_1 = new BlockModFlower(26).setBlockName("flower_pansy_1");
-		flower_laceleaf = new BlockModFlower(27).setBlockName("flower_laceleaf");
-		flower_marigold = new BlockModFlower(28).setBlockName("flower_marigold");
+		flower_cockscomb_5 = new BlockModFlower(18).setBlockName("flower_cockscomb_5");
+		flower_cockscomb_4 = new BlockModFlower(19).setBlockName("flower_cockscomb_4");
+		flower_cockscomb_3 = new BlockModFlower(20).setBlockName("flower_cockscomb_3");
+		flower_cockscomb_2 = new BlockModFlower(21).setBlockName("flower_cockscomb_2");
+		flower_cockscomb_1 = new BlockModFlower(22).setBlockName("flower_cockscomb_1");
+		flower_morningglory = new BlockModFlower(23).setBlockName("flower_morningglory");
+		flower_pansy_4 = new BlockModFlower(24).setBlockName("flower_pansy_4");
+		flower_pansy_3 = new BlockModFlower(25).setBlockName("flower_pansy_3");
+		flower_pansy_2 = new BlockModFlower(26).setBlockName("flower_pansy_2");
+		flower_pansy_1 = new BlockModFlower(27).setBlockName("flower_pansy_1");
+		flower_laceleaf = new BlockModFlower(28).setBlockName("flower_laceleaf");
 		flower_aquilegia = new BlockModFlower(29).setBlockName("flower_aquilegia");
 		flower_africandasiy = new BlockModFlower(30).setBlockName("flower_africandasiy");
-
+		flower_bluelilac = new BlockModFlower(31).setBlockName("flower_bluelilac");
 		
 		registerBlocks();
 	}
@@ -120,9 +118,9 @@ public class BlockLoader {
 		GameRegistry.registerBlock(flower_pansy_2, "flower_pansy_2");
 		GameRegistry.registerBlock(flower_pansy_1, "flower_pansy_1");
 		GameRegistry.registerBlock(flower_laceleaf, "flower_laceleaf");
-		GameRegistry.registerBlock(flower_marigold, "flower_marigold");
 		GameRegistry.registerBlock(flower_aquilegia, "flower_aquilegia");
 		GameRegistry.registerBlock(flower_africandasiy, "flower_africandasiy");
+		GameRegistry.registerBlock(flower_bluelilac, "flower_bluelilac");
 	}
 	
 	

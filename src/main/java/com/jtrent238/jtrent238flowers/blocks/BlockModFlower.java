@@ -27,7 +27,7 @@ import net.minecraftforge.common.EnumPlantType;
 
 public class BlockModFlower  extends BlockBush
 {
-    public static final String[][] field_149860_M = new String[][] {{"flower_anemone"}, {"flower_aster"}, {"flower_blue"}, {"flower_blue_2"}, {"flower_dandelion"}, {"flower_darkbloom"}, {"flower_fire"}, {"flower_herb"}, {"flower_hyacinth"}, {"flower_ice"}, {"flower_marigold"}, {"flower_pinkrose"}, {"flower_pinkrosebush"}, {"flower_purple"}, {"flower_purpletulip"}, {"flower_redallium"}, {"flower_rose"}, {"flower_yellowtulip"}, {"flower_cockscomb_5"} , {"flower_cockscomb_4"} , {"flower_cockscomb_3"} , {"flower_cockscomb_2"} , {"flower_cockscomb_1"} , {"flower_morningglory"} , {"flower_pansy_4"} , {"flower_pansy_3"} , {"flower_pansy_2"} , {"flower_pansy_1"} , {"flower_laceleaf"} , {"flower_marigold"} , {"flower_aquilegia"} , {"flower_africandasiy"} };
+    public static final String[][] field_149860_M = new String[][] {{"flower_anemone"}, {"flower_aster"}, {"flower_blue"}, {"flower_blue_2"}, {"flower_dandelion"}, {"flower_darkbloom"}, {"flower_fire"}, {"flower_herb"}, {"flower_hyacinth"}, {"flower_ice"}, {"flower_marigold"}, {"flower_pinkrose"}, {"flower_pinkrosebush"}, {"flower_purple"}, {"flower_purpletulip"}, {"flower_redallium"}, {"flower_rose"}, {"flower_yellowtulip"}, {"flower_cockscomb_5"}, {"flower_cockscomb_4"}, {"flower_cockscomb_3"}, {"flower_cockscomb_2"}, {"flower_cockscomb_1"}, {"flower_morningglory"}, {"flower_pansy_4"}, {"flower_pansy_3"}, {"flower_pansy_2"}, {"flower_pansy_1"}, {"flower_laceleaf"}, {"flower_aquilegia"}, {"flower_africandasiy"}, {"flower_bluelilac"} };
     public static final String[] field_149859_a = new String[] {};
     public static final String[] field_149858_b = new String[] {};
    
@@ -185,8 +185,8 @@ public class BlockModFlower  extends BlockBush
 			(new WorldGenFlowers(BlockLoader.flower_pansy_2)).generate(world, randomGenerator, l6, i11, l14);
 			(new WorldGenFlowers(BlockLoader.flower_pansy_1)).generate(world, randomGenerator, l6, i11, l14);
 			(new WorldGenFlowers(BlockLoader.flower_laceleaf)).generate(world, randomGenerator, l6, i11, l14);
-			(new WorldGenFlowers(BlockLoader.flower_marigold)).generate(world, randomGenerator, l6, i11, l14);
 			(new WorldGenFlowers(BlockLoader.flower_aquilegia)).generate(world, randomGenerator, l6, i11, l14);
-			(new WorldGenFlowers(BlockLoader.flower_africandasiy)).generate(world, randomGenerator, l6, i11, l14);}
+			(new WorldGenFlowers(BlockLoader.flower_africandasiy)).generate(world, randomGenerator, l6, i11, l14);
+			(new WorldGenFlowers(BlockLoader.flower_bluelilac)).generate(world, randomGenerator, l6, i11, l14);}
 	}
 }
