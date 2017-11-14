@@ -173,20 +173,20 @@ public class BlockModFlower  extends BlockBush
 			(new WorldGenFlowers(BlockLoader.flower_redallium)).generate(world, randomGenerator, l6, i11, l14);
 			(new WorldGenFlowers(BlockLoader.flower_redallium)).generate(world, randomGenerator, l6, i11, l14);
 			(new WorldGenFlowers(BlockLoader.flower_rose)).generate(world, randomGenerator, l6, i11, l14);
-			(new WorldGenFlowers(BlockLoader.flower_yellowtulip)).generate(world, randomGenerator, l6, i11, l14);}
-			(new WorldGenFlowers(BlockLoader.flower_cockscomb_5)).generate(world, randomGenerator, l6, i11, l14);}
-			(new WorldGenFlowers(BlockLoader.flower_cockscomb_4)).generate(world, randomGenerator, l6, i11, l14);}
-			(new WorldGenFlowers(BlockLoader.flower_cockscomb_3)).generate(world, randomGenerator, l6, i11, l14);}
-			(new WorldGenFlowers(BlockLoader.flower_cockscomb_2)).generate(world, randomGenerator, l6, i11, l14);}
-			(new WorldGenFlowers(BlockLoader.flower_cockscomb_1)).generate(world, randomGenerator, l6, i11, l14);}
-			(new WorldGenFlowers(BlockLoader.flower_morningglory)).generate(world, randomGenerator, l6, i11, l14);}
-			(new WorldGenFlowers(BlockLoader.flower_pansy_4)).generate(world, randomGenerator, l6, i11, l14);}
-			(new WorldGenFlowers(BlockLoader.flower_pansy_3)).generate(world, randomGenerator, l6, i11, l14);}
-			(new WorldGenFlowers(BlockLoader.flower_pansy_2)).generate(world, randomGenerator, l6, i11, l14);}
-			(new WorldGenFlowers(BlockLoader.flower_pansy_1)).generate(world, randomGenerator, l6, i11, l14);}
-			(new WorldGenFlowers(BlockLoader.flower_laceleaf)).generate(world, randomGenerator, l6, i11, l14);}
-			(new WorldGenFlowers(BlockLoader.flower_marigold)).generate(world, randomGenerator, l6, i11, l14);}
-			(new WorldGenFlowers(BlockLoader.flower_aquilegia)).generate(world, randomGenerator, l6, i11, l14);}
-			(new WorldGenFlowers(BlockLoader.flower_africandasiy)).generate(world, randomGenerator, l6, i11, l14);}
+			(new WorldGenFlowers(BlockLoader.flower_yellowtulip)).generate(world, randomGenerator, l6, i11, l14);
+			(new WorldGenFlowers(BlockLoader.flower_cockscomb_5)).generate(world, randomGenerator, l6, i11, l14);
+			(new WorldGenFlowers(BlockLoader.flower_cockscomb_4)).generate(world, randomGenerator, l6, i11, l14);
+			(new WorldGenFlowers(BlockLoader.flower_cockscomb_3)).generate(world, randomGenerator, l6, i11, l14);
+			(new WorldGenFlowers(BlockLoader.flower_cockscomb_2)).generate(world, randomGenerator, l6, i11, l14);
+			(new WorldGenFlowers(BlockLoader.flower_cockscomb_1)).generate(world, randomGenerator, l6, i11, l14);
+			(new WorldGenFlowers(BlockLoader.flower_morningglory)).generate(world, randomGenerator, l6, i11, l14);
+			(new WorldGenFlowers(BlockLoader.flower_pansy_4)).generate(world, randomGenerator, l6, i11, l14);
+			(new WorldGenFlowers(BlockLoader.flower_pansy_3)).generate(world, randomGenerator, l6, i11, l14);
+			(new WorldGenFlowers(BlockLoader.flower_pansy_2)).generate(world, randomGenerator, l6, i11, l14);
+			(new WorldGenFlowers(BlockLoader.flower_pansy_1)).generate(world, randomGenerator, l6, i11, l14);
+			(new WorldGenFlowers(BlockLoader.flower_laceleaf)).generate(world, randomGenerator, l6, i11, l14);
+			(new WorldGenFlowers(BlockLoader.flower_marigold)).generate(world, randomGenerator, l6, i11, l14);
+			(new WorldGenFlowers(BlockLoader.flower_aquilegia)).generate(world, randomGenerator, l6, i11, l14);
+			(new WorldGenFlowers(BlockLoader.flower_africandasiy)).generate(world, randomGenerator, l6, i11, l14);
 	}
 }
